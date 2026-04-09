@@ -14,4 +14,4 @@ services:
       MODE: "survival"
       LEVEL: "SPdaze"
       ENABLE_WHITELIST: TRUE
-    restart: on-failure:3
+    restart: on_failure:3
