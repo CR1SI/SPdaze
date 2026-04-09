@@ -10,5 +10,6 @@ ENV EULA=TRUE \
     DIFFICULTY=hard \
     LEVEL=SPdaze \
     ENABLE_WHITELIST=TRUE \
+    MOTD='\u00a7mHaze\u00a7b Daze\u00a7r is \u00a7bBACK\u00a7r!' \
     ICON=/server-icon.png \
     OVERRIDE_ICON=TRUE
