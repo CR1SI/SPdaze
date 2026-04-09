@@ -1,5 +1,7 @@
 FROM itzg/minecraft-server:latest
 
+COPY server-icon.png /server-icon.png
+
 ENV EULA=TRUE \
     TYPE=FABRIC \
     VERSION=1.21.11 \
@@ -7,4 +9,6 @@ ENV EULA=TRUE \
     MODE=survival \
     DIFFICULTY=hard \
     LEVEL=SPdaze \
-    ENABLE_WHITELIST=TRUE
+    ENABLE_WHITELIST=TRUE \
+    ICON=/server-icon.png \
+    OVERRIDE_ICON=TRUE
