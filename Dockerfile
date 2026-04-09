@@ -8,4 +8,3 @@ ENV EULA=TRUE \
     DIFFICULTY=hard \
     LEVEL=SPdaze \
     ENABLE_WHITELIST=TRUE \
-    ICON=/app/data/server-icon.png
