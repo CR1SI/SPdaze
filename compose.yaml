@@ -1,0 +1,18 @@
+services:
+  spdaze:
+    image: itzg/minecraft-server:latest
+    pull_policy: latest
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: TRUE
+      VERSION: 1.21.11
+      TYPE: FABRIC
+      MODRINTH_PROJECTS: |
+        fabric-api
+      MODE: 0
+      LEVEL: SPdaze
+      ENABLE_WHITELIST: TRUE
+    restart: on-failure:3
