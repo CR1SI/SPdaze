@@ -7,4 +7,4 @@ ENV EULA=TRUE \
     MODE=survival \
     DIFFICULTY=hard \
     LEVEL=SPdaze \
-    ENABLE_WHITELIST=TRUE \
+    ENABLE_WHITELIST=TRUE
