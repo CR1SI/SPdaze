@@ -15,8 +15,3 @@ services:
       LEVEL: "SPdaze"
       ENABLE_WHITELIST: TRUE
     restart: on-failure:3
-    volumes:
-      - server_data:/data
-
-volumes:
-  server_data:
